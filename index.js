@@ -9,4 +9,4 @@ app.use(express.static("./"));
 
 app.listen(server_port, server_ip_address);
 
-console.log(`Bulletin app running on port ${port}`);
+console.log(`Bulletin app running on port ${server_port}`);
